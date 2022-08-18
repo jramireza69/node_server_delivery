@@ -42,7 +42,7 @@ const upload = multer({
 
 usersRoutes(app, upload)
 
-server.listen(3000, '192.168.20.22' || 'localhost', function(){
+server.listen(3000, '192.168.20.24' || 'localhost', function(){
     console.log('Aplicacion de node js ' + process.pid + '  iniciada...' +  port);
 })
 
